@@ -1,13 +1,13 @@
 # RMI_examples
 
-To run the example run the rmy registry
+# To run the example run the rmy registry
 
-# rmiregistry
+> rmiregistry
 
-run the server:
+# run the server:
 
-# java -cp . -Djava.rmi.server.codebase=<http:// ou file:// contendo classes.jar> -Djava.security.policy=java.policy      appcalculadora.Servidor
+> java -cp . -Djava.rmi.server.codebase=<http:// ou file:// contendo classes.jar> -Djava.security.policy=java.policy      appcalculadora.Servidor
 
-run the Client:
+# run the Client:
 
-# java -cp . -Djava.rmi.server.codebase=<http:// ou file:// contendo classes.jar> -Djava.security.policy=java.policy   appcalculadora.Cliente
+> java -cp . -Djava.rmi.server.codebase=<http:// ou file:// contendo classes.jar> -Djava.security.policy=java.policy   appcalculadora.Cliente
