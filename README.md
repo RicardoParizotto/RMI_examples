@@ -1,5 +1,13 @@
 # RMI_examples
 
+- Compile it with:
+
+> javac appcalculadora/*.java
+
+ - create a jar file:
+
+> jar cvf classes.jar appcalculadora/*.class
+
 # To run the example run the rmy registry
 
 > rmiregistry
