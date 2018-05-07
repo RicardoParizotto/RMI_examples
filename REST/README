@@ -1,0 +1,12 @@
+
+-Compile with:
+
+# javac -cp "jersey-bundle-1.19.jar" webservice/*.java
+
+run the server:
+
+# java -cp ".:jersey-bundle-1.19.jar" webservice.Servidor
+
+Run the client:
+
+# java -cp ".:jersey-bundle-1.19.jar" webservice.Cliente
