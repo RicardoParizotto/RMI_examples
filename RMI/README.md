@@ -8,7 +8,7 @@
 
 > jar cvf classes.jar appcalculadora/*.class
 
-# To run the example run the rmy registry
+# Run the rmi registry
 
 > rmiregistry
 
